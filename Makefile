@@ -8,7 +8,7 @@ output: main.o person.o
 main.o: main.cpp
 	$(CC) $(CFLAGS) main.cpp
 
-Osoba.o: person.cpp person.h
+person.o: person.cpp person.h
 	$(CC) $(CFLAGS) person.cpp
 
 clean: 
