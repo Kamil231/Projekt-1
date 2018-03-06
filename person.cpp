@@ -18,7 +18,8 @@ void person::setOutput(){ //nowa metoda
 }
 
 void person::changeVowel(){  //nowa metoda
-	int length_Output, isLowercaseVowel, isUppercaseVowel, letter;
+	int length_Output, isLowercaseVowel, isUppercaseVowel;
+	char letter;
 	length_Output = Output.length();
 	for (int i = 0; i < length_Output; ++i){
 		letter = Output[i];
