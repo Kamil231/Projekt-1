@@ -10,7 +10,12 @@ int main() {
 	user.setName();
 	user.setSurname();
 	user.setPseudonym();
+	user.inverseWords();
+	user.setOutput();
+	user.changeVowel();
 	user.getOutput();
+	
 
 	return 0;
+
 }
