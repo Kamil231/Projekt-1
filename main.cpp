@@ -10,6 +10,8 @@ int main() {
 	user.setName();
 	user.setSurname();
 	user.setPseudonym();
+	user.setOutput();
+	user.changeVowel();
 	user.getOutput();
 
 	return 0;
