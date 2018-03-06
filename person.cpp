@@ -14,5 +14,5 @@ void person::setPseudonym() {
 	cin >> Pseudonym;
 }
 void person::getOutput(){
-	cout << Name + "\"" + Pseudonym + "\"" + Surname << endl;
+	cout << Name + Surname + "\"" + Pseudonym + "\""<< endl;
 	}
