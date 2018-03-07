@@ -13,6 +13,7 @@ void person::setPseudonym() {
 	cout << "Write pseudonym: " << endl;
 	cin >> Pseudonym;
 }
+
 void person::setOutput(){ //nowa metoda
 	Output = Name + Surname + "\"" + Pseudonym + "\"";	 //zmiana
 }
@@ -30,10 +31,12 @@ void person::changeVowel(){  //nowa metoda
 	}
 }
 
+
 void person::getOutput(){
 	cout << Output << endl;
 }
 	
+
 void person::inverseWords(){
 	int length_Name, length_Surname, length_Pseudonym, a, b;
 	length_Name = Name.length();
@@ -60,3 +63,4 @@ void person::inverseWords(){
 	
 
 }
+
