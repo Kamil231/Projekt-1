@@ -22,6 +22,7 @@ public:
 	void setOutput();
 	void changeVowel();
 	void getOutput();
+	void inverseWords();
 
 };
 
