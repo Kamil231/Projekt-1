@@ -38,9 +38,10 @@ void person::getOutput(){
 	
 
 void person::inverseWords(){
-	int length_Name, length_Surname, length_Pseudonym, a, b;
+	int length_Name, length_Surname, length_Pseudonym, a;
+	char b;
 	length_Name = Name.length();
-	length_Surname = Name.length();
+	length_Surname = Surname.length();
 	length_Pseudonym = Pseudonym.length();
 	for (int i = 0; i < length_Name / 2; i++){
 		a = length_Name - 1 - i;
