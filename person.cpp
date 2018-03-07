@@ -13,8 +13,9 @@ void person::setPseudonym() {
 	cout << "Write pseudonym: " << endl;
 	cin >> Pseudonym;
 }
+<
 void person::setOutput(){ //nowa metoda
-	Output = Name + "\"" + Pseudonym + "\"" + Surname;	 //zmiana
+	Output = Name + Surname + "\"" + Pseudonym + "\"";	 //zmiana
 }
 
 void person::changeVowel(){  //nowa metoda
@@ -27,8 +28,8 @@ void person::changeVowel(){  //nowa metoda
 		isUppercaseVowel = (letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U');
 		if (isLowercaseVowel || isUppercaseVowel)
 			Output[i] = 'z';
-	}
-}
+      }
+      }
 
 void person::getOutput(){
 	cout << Output << endl;
